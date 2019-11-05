@@ -4,6 +4,14 @@
     margin:0 auto;
     margin-top:10%;
 }
+@font-face {
+	font-family: 'QuickSand';
+	src: url('quicksand/Quicksand-regular.otf') format('opentype');
+}
+
+* {
+	font-family: 'QuickSand';
+}
 /* ici la forme border */
 form {
     width:100%;
