@@ -2,6 +2,14 @@ body, html {
     height: 100%;
     margin: 0;
 }
+@font-face {
+	font-family: 'QuickSand';
+	src: url('quicksand/Quicksand-regular.otf') format('opentype');
+}
+
+* {
+	font-family: 'QuickSand';
+}
 
 .bg {
   /* The image used */
