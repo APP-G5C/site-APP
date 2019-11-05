@@ -1,7 +1,7 @@
 html {
     background: rgba(173, 173, 173, .1);
     font: 100% sans-serif;
-    
+    font-family: 'QuickSand';
 
 }
 @font-face {
@@ -9,9 +9,8 @@ html {
 	src: url('quicksand/Quicksand-regular.otf') format('opentype');
 }
 
-* {
-	font-family: 'QuickSand';
-}
+
+	
 
 h1 {
     font-size: 5em;
