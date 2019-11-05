@@ -1,7 +1,7 @@
 <html>
     <head>
        <meta charset="utf-8">
-        <link rel="stylesheet" href="styleS.css" media="screen" type="text/css" />
+        <link rel="stylesheet" href="ConnexionCSS.css" media="screen" type="text/css" />
     </head>
     <body background="Background.jpg">
         <div id="container">
