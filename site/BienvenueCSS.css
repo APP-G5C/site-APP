@@ -1,22 +1,25 @@
 html {
-    background: rgba(173, 173, 173, .1);
-    font: 100% sans-serif;
-    font-family: 'QuickSand';
+    background: rgba(173, 173, 173, .9);
+    font: 100%
+    
 
 }
+
 @font-face {
-	font-family: 'QuickSand';
-	src: url('quicksand/Quicksand-regular.otf') format('opentype');
+	font-family: 'circular';
+	src: url('polices/Circular.otf') format('opentype');
 }
 
+* {
+    font-family: 'circular';
+}
 
 	
 
 h1 {
-    font-size: 5em;
+    font-size: 9em;
     color: #a0ff23;
-    font-weight: bold;
-    
+        
 
     
 
@@ -28,6 +31,7 @@ h1 {
         translateY(-50%);
     display: flex;
     flex-direction: column;
+    font-family: 'circular';
     /* align-content: space-around; */
 
 
@@ -36,67 +40,58 @@ h1 {
 .flex_container>div {
 
     text-align: center;
+    font-family: 'circular';
+
+}
+
+#conteneur {
+    display: : flex;
+    justify-content: flex-end;
+
 }
 
 h2 {
     text-align: center;
-    font-size: 2.7em;
+    font-size: 2em;
     color: #a0ff23;
+   
     
 }
 
 .bouton {
-    align-content: center;
+   
+    font-family: 'circular';
+
 
 }
 
 .bouton a {
     text-decoration: none;
-    display: block;
     margin: auto;
-    font-family: Arial, sans-serif;
     font-size: 2em;
     width: 150px;
     text-align: center;
     color: rgb(0, 0, 0);
-    background: #13c20d;
-
-    border-radius: 8px;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5),
-        0 -2px 0 rgba(255, 255, 255, 0.4);
 }
 
-.gros_bouton {
-    align-content: center;
-}
 
 .gros_bouton a {
+    color: #a0ff23;
     text-decoration: none;
-    display: block;
-    margin: auto;
-    font-family: Arial, sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     width: 300px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    background: #13c20d;
-    border-radius: 8px;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5),
-        0 -2px 0 rgba(255, 255, 255, 0.4);
-
+    font-family: 'circular';
+    transition: 0.4s;
 }
 
 .bouton a:hover {
     color: rgba(120, 120, 120, );
-    background: #48e643
+    
 }
 
 .gros_bouton a:hover {
     color: rgb(40, 40, 40);
-    background: #48e643;
-
+    transition: 0.1s;
 }
 
 ul {
