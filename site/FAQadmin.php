@@ -29,7 +29,7 @@
           <h4>Où doit on effectuer les tests ?</h4>
           <p>Dans une institut spécialisé comment un truc d'auto école</p>
 
-          <button class="button">Ajouter une question</button>
+          <button class="button"><a style="color:white; text-decoration:none" href="FAQ.html">Ajouter une question</a>
         </form>
 </div>
 </body>
