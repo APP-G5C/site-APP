@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>SmartBeing</title>
-    <link rel="stylesheet" href="FAQCSS.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <?php include("header.php"); ?>
       <div class="bg">
         <form action="#" method="POST">
           <h2>BIENVENUE DANS LA FAQ</h2>
