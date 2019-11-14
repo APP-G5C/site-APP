@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>SmartBeing</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="FAQCSS.css">
 </head>
 <body>
   <?php include("header.php"); ?>
@@ -28,6 +28,8 @@
           <p>Vous ne pouvez pas.</p>
           <h4>Où doit on effectuer les tests ?</h4>
           <p>Dans une institut spécialisé comment un truc d'auto école</p>
+
+          
         </form>
 </div>
 </body>
