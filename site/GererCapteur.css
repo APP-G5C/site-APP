@@ -40,15 +40,7 @@ html {
     font: 100% sans-serif;
     font-family: 'Quicksand';
 }
-h2{
-   
-    font-size: 50px;
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 30px;
- 
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
-}
+
 h3{
     color: black;
     font-size: 45px;
@@ -57,12 +49,6 @@ h3{
     padding-bottom: 5px;
 
 }
-
-.line{
-width: 85%;
-height: 10px;
-border-bottom: 1px solid black;
-position: absolute;
 
 
 
@@ -105,13 +91,5 @@ h4{
     text-align: center;
 
 }
-.data{
-  min-height: 800%;
-  min-width: 1024px;
-    
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-  display: block;
-}
+
  /*<button class="button"><a style="color:white; text-decoration:none" href="FAQ.html">Ajouter un capteur</a></button>*/
