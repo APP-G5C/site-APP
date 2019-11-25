@@ -29,7 +29,7 @@ form {
 
     margin-right: 150px;
     margin-left: 80px;
-    margin-top: 10px;
+
 }
 
 html {
@@ -82,8 +82,33 @@ h4{
   display: block;
   margin : auto;
 
+
+}
+.buttonModif {
+  background-image: url("modifier.jpg");
+  border: none;
+  width: 60px;
+  height: 50px;
+  float: right;
+  cursor: pointer;
+  margin-left: 25%;
+}
+.buttonDelete {
+  background-image: url("cross.png");
+  border: none;
+  width: 60px;
+  height: 50px;
+  background-color:white; 
+  float: right;
+  cursor: pointer;
+
 }
 
 .button:hover {
   background-color: green;
 }
+
+.buttonModif:hover {
+  background-color: green;
+}
+
