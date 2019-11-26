@@ -7,8 +7,8 @@ html {
 }
 
 @font-face {
-	font-family: 'circular';
-	src: url('polices/Circular.otf') format('opentype');
+    font-family: 'circular';
+    src: url('polices/Circular.otf') format('opentype');
 }
 
 @font-face {
@@ -27,7 +27,7 @@ h1 {
     font-family: 'circular';
 }
 
-	
+
 
 h1 {
     font-size: 9em;
@@ -44,7 +44,7 @@ h1:hover {
 #flex_container {
     margin-top: 40vh;
     transform:
-        translateY(-50%);
+            translateY(-50%);
     display: flex;
     flex-direction: column;
     font-family: 'circular';
@@ -74,8 +74,8 @@ h2 {
     font-size: 2em;
     color: #a0ff23;
     font-family: 'aileron_thin';
-   
-    
+
+
 }
 
 .bouton {
@@ -107,7 +107,7 @@ h2 {
     color: #a0ff23;
     transition: 0.5s;
 
-    
+
 }
 
 .gros_bouton a:hover {
@@ -140,11 +140,11 @@ ul li a {
     padding: 10px 10px 10px 10px;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
     box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset,
-        0 -1px 0 hsl(35, 100%, 32%) inset,
-        0 -2px 0 hsl(35, 100%, 38%) inset,
-        0 -3px 0 hsl(35, 100%, 44%) inset,
-        0 -4px 0 hsl(35, 100%, 50%) inset,
-        0 -5px 0 hsl(35, 100%, 60%) inset;
+    0 -1px 0 hsl(35, 100%, 32%) inset,
+    0 -2px 0 hsl(35, 100%, 38%) inset,
+    0 -3px 0 hsl(35, 100%, 44%) inset,
+    0 -4px 0 hsl(35, 100%, 50%) inset,
+    0 -5px 0 hsl(35, 100%, 60%) inset;
     /* transition: all .3s .1s; */
 }
 
@@ -152,11 +152,11 @@ ul li a:hover,
 ul li a:focus {
     background: rgba(255, 255, 255, .2);
     box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset,
-        0 -1px 0 hsl(35, 100%, 42%) inset,
-        0 -2px 0 hsl(35, 100%, 48%) inset,
-        0 -3px 0 hsl(35, 100%, 54%) inset,
-        0 -4px 0 hsl(35, 100%, 60%) inset,
-        0 -5px 0 hsl(35, 100%, 70%) inset;
+    0 -1px 0 hsl(35, 100%, 42%) inset,
+    0 -2px 0 hsl(35, 100%, 48%) inset,
+    0 -3px 0 hsl(35, 100%, 54%) inset,
+    0 -4px 0 hsl(35, 100%, 60%) inset,
+    0 -5px 0 hsl(35, 100%, 70%) inset;
     padding: 10px 20px 10px 20px;
     transition: all .1s 0s;
 }
@@ -174,5 +174,4 @@ ul li:first-child a {
 ul li:last-child a {
     border-radius: 0 4px 4px 0;
 }
-
 
