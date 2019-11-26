@@ -41,7 +41,7 @@
             <label for="memoire">Reproduction de motif sonore</label>
         </div>
         
-        <button class="button"><a style="color:white; text-decoration:none" href="FAQ.html">Suivant</a></button>
+        <button class="button"><a href="explication.php" style="color:white; text-decoration:none" href="FAQ.html">Suivant</a></button>
 
         </form>
 </div>

@@ -71,12 +71,7 @@ h3{
 }
 }
 
-.truc1{
-  margin-left: 50%;
-  text-align: center;
-  position: absolute;
-  font-size: 25px;
-}
+
 #truc1 {
 
   margin-bottom: 20px;
@@ -110,3 +105,5 @@ p{
   cursor: pointer;
   display: block;
   margin : auto;
+  width: 360px;
+  margin-top: 40px;
