@@ -9,7 +9,7 @@
 <ul>
     <li><a href="Tests.php">Tests</a></li>
     <li><a href="Scores.php">Scores</a></li>
-    <li><a href="Profil.php">Profil</a></li>
+    <li><a href="profil.php">Profil</a></li>
     <li><a href="FAQ.php">FAQ</a></li>
 </ul>
 
