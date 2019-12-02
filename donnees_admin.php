@@ -6,10 +6,10 @@
 	<title>SmartBeing</title>
 	<link rel="stylesheet" href="DonneesCSS.css">
 </head>
-
-<body background="Background.jpg">
+<body>
 <?php include("header.php"); ?>
-<img src="logo.png" alt="SmartBeing logo" height=100px width=100px>
+<div class="bg">
+	<form action="#" method="POST">
 <div class="flex_container">
 	<div>
 		<h1>Informations générales</h1>
@@ -66,7 +66,34 @@
 		<h2>Reproduction de motifs sonores: </h2>
 	</div>
 </div>
+</form>
+</div>
 
+<style>
+	/* width */
+	::-webkit-scrollbar {
+		width: 10px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		background: #f1f1f1;
+		opacity: 0.5;
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #888;
+		opacity : .5;
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #555;
+		opacity: 0.5;
+
+	}
+</style>
 
 </body>
 
