@@ -10,7 +10,7 @@
 <body background= "Background.jpg">
 
 <div id="conteneur">
-	<div class ="bouton"> <a href="Connexion.php">Connexion</a> </div>
+	<div class ="bouton"> <a href="connexion.php">Connexion</a> </div>
 	<div class="bouton"> <a href="FAQbis.php">?</a></div>
 </div>
 
