@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1');
+
+*{
+    font-family : "Gothic+A1",sans-serif;
+    background-color : #E6F8E0; 
+}
+
+header{
+    height : 126px;
+}
+header img{
+    float : left;
+    height : 70%;
+    margin-right : 2%;
+}
+header button{
+    float : right;
+    height : 50px;
+    width : 160px;
+    top : 10px;
+    font-family : "Gothic+A1",sans-serif;
+    background-image:linear-gradient();
+}
+
+header h2,header h3{
+    margin : 2px;
+}
+
+header hr{
+    margin-top : 10px;
+}
+form {
+  /* Pour le centrer dans la page */
+  margin: 0 auto;
+  width: 400px;
+  margin-top:30px;
+}
+
+label {
+  /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
+    display: inline-block;
+    width: 125px;
+    text-align: center;
+    margin-top:10px;
+}
+
+textarea {
+  /* Pour aligner correctement les champs multilignes et leurs étiquettes */
+  vertical-align: top;
+  margin-top:10px;
+
+  /* Pour donner assez d'espace pour entrer du texte */
+  height: 250px ;
+  width : 250px;
+
+  /* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement
+     Cela ne marche pas avec tous les navigateurs  */
+  resize: vertical;
+  background-color: white;
+}
+input{
+  background-color: white;  
+  margin: 0 auto;
+  width: 200px;
+  margin-top:10px;
+}
+
+footer{
+    height : 51px;
+    position : absolute;
+    bottom : 0;
+    width : 99%;
+    padding-top : 40px;
+}
+
+figure img{
+    height : 40px;
+    width : 40px;
+    border-radius : 50%;
+}
+
+#Reseaux{
+    display : flex;             /* mettre les éléments dans une boîte */
+    justify-content : center;   /* aligner à la verticale */
+    align-items : center;       /* aligner en ligne */
+    position : absolute;
+    left : 30px;
+    bottom : 15px;
+}
+
+#Twitter{
+    text-align : center;
+}
+#Instagram{
+    text-align : center;
+}
+#Facebook{
+    text-align : center;
+}
+
+
+footer p{
+    position : absolute;
+    right : 40px;
+    color : blue;
+    top : 1px;
+}
