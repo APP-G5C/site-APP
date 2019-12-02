@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="GererCapteur.css">
 </head>
 <body>
-	<?php include("header.php"); ?>
+	<?php include("headerAdmin.php"); ?>
    	<div class="bg">
 
    

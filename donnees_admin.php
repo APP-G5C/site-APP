@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="UTF-8">
 	<title>SmartBeing</title>
 	<link rel="stylesheet" href="DonneesCSS.css">
 </head>
 <body>
-<?php include("header.php"); ?>
+<?php include("headerAdmin.php"); ?>
 <div class="bg">
 	<form action="#" method="POST">
 <div class="flex_container">
