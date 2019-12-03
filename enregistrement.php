@@ -27,7 +27,8 @@
 				<input type="submit" id='submit' value="S'enregistrer">
 
 			</form>
-		
+		</div>
+		</div>
 		
 		
 		
