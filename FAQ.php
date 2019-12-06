@@ -16,18 +16,36 @@
 		<h3>QUESTIONS COURANTES</h3>
 
 
-		<h4>Comment faire pour créer un compte ?</h4>
-		<p>à remplir
-		<h4>Comment nous contacter ? </h4>
-		<p>pour nous contacter vous pouvez utilisez la boite mail intégrer au site, pour cela appuyez simplement sur le bouton correspondant.</p>
-		<h4>Comment fonctionne les tests ?</h4>
-		<p>Nos appareils sont disponibles uniquement pour les ayant-droit, ceux-ci utilisent des capteurs et dispositfs permettant d'effectuer les tests. Les résultats sont ensuite directement transmis sur ce site web. </p>
-		<h4>Comment récuperer mes scores ?</h4>
-		<p>Pour récuperer vos scores veuillez allez dans l'onglet "score" de votre profil qui se trouve quelque part sur le site.</p>
-		<h4>Comment supprimer mon compte ?</h4>
-		<p>Vous ne pouvez pas.</p>
-		<h4>Où doit on effectuer les tests ?</h4>
-		<p>Dans un institut spécialisé tel qu'une auto-école, un hopital etc. </p>
+		<<?php
+	try
+	{
+		$bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', '');
+	}
+	catch(Exception $e)
+	{
+    	    die('Erreur : '.$e->getMessage());
+	}
+
+	$question = $bdd->query('SELECT question, réponse FROM faq');
+
+	while ($donnees = $question->fetch())
+	{
+		?>
+
+		<h4> <?php echo $donnees['question'] . '<br />'; ?> </h4>
+		    <p>
+		    	
+		<?php echo $donnees['réponse'] . '<br />'; ?>
+				
+		    </p>
+
+
+<?php
+}
+
+$reponse->closeCursor(); // Termine le traitement de la requête
+
+?>
 	</form>
 </div>
 

@@ -8,10 +8,10 @@
 <body>
 <ul>
     <li><a href="profilAdmin.php">Profil</a></li>
-    <li><a href="user.php">Utilisateurs</a></li>
+    <li><a href="Scores.php">Recherche</a></li>
     <li><a href=".php">Messagerie</a></li>
         <li><a href="GererCapteur.php">Capteurs</a></li>
-    <li><a href="FAQadmin_nathan.php">FAQ</a></li>
+    <li><a href="FAQadmin.php">FAQ</a></li>
 
     <li><a href="donnees_admin.php">Données</a></li>
 </ul>
