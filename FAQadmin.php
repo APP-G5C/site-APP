@@ -27,13 +27,13 @@
     	    die('Erreur : '.$e->getMessage());
 	}
 
-	$question = $bdd->query('SELECT question, réponse FROM faq');
+	$question = $bdd->query('SELECT id,question, réponse FROM faq');
 
 	while ($donnees = $question->fetch())
 	{
 		?>
 
-		<h4> <?php echo $donnees['question'] . '<br />'; ?> </h4>
+		<h4> <?php  echo $donnees['id'] . '.     ' ; echo $donnees['question'] . '<br />'; ?> </h4>
 		    <p>
 		    	
 		<?php echo $donnees['réponse'] . '<br />'; ?>

@@ -17,39 +17,59 @@
     	    die('Erreur : '.$e->getMessage());
 	} 
 
+
+ 
+ 
+
+   
+
 	?>
 <div class="bg">
+<form action="ajouterFAQ.php" method="post">
 
-	<form action="#" method="POST">
+	
 		<h2>FAQ</h2>
 		<div class="line"></div>
 
-
-		<label for="question">Question à ajouter : </label> : <input type="text"  style="
+		 
+		<label for="question" style="font-size: 40px;">Question à ajouter : </label> : <input type="text"  style="
   			vertical-align: top;
- 			margin-top:10px;
   			margin-left: 17%;
   			height: 250px ;
+  			font-size:35px;
   			width : 850px;
   			resize: vertical;
   			background-color: white;" name="question" id="question" />
-		<label for="reponse">Réponse à ajouter : </label> : <input type="text"  style="
+		<label for="reponse"  style="font-size: 40px;">Réponse à ajouter : </label> : <input type="text"  style="
   			vertical-align: top;
- 			margin-top:10px;
   			margin-left: 17%;
   			height: 250px ;
   			width : 850px;
+  			font-size:35px;
   			resize: vertical;
-  			background-color: white;" name="reponse" id="reponse" />		
- <?php
-  $req = $bdd->prepare('INSERT INTO faq (question, réponse) VALUES(?,?)');
-   ?>
+  			background-color: white;" name="reponse" id="reponse" />
+  	<button class="button"  style="color:white; text-decoration:none" href="ajouterFAQ.php">
+	Effectuer changement
+	</button>
+	
+</form>	
+  <?php $bdd->query(' ALTER TABLE `faq` AUTO_INCREMENT = 1');	?>
 
-	<button class="button" style="color:white; text-decoration:none" href="<?php 
-	 $req->execute(array($_POST['question'], $_POST['reponse']));
-	 ?>">Sauvegarder les changements</button>
+<form action="supprFAQ.php" method="post">
+	<label for="idSuppr" style="font-size: 40px;">Numéro de la question à supprimer : </label> : <input type="text"  style="
+  			vertical-align: top;
+ 			margin-top:10px;
+ 			height: 40px ;
+  			width : 250px;
+  			font-size:30px;
+  			margin-left: 515px;
+  			resize: vertical;
+  			background-color: white;" name="idSuppr" id="idSuppr" />
+  	<button class="button"  style="color:white; text-decoration:none" href="supprFAQ.php">
+	Supprimer la question
+	</button>
+</form>
 
-	</form>
 </div>
 
 <style>

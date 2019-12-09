@@ -87,10 +87,10 @@ h3{
 
 
 label{
-    margin-top:100px;
+    margin-top:30px;
     text-align: center;
     display: block;
-    font-size: 20px;
+    font-size: 100px;
     color: white;
     font-family: 'aileron_ultralight';
     }
@@ -110,7 +110,7 @@ p{
 
 
 .button {
-    margin-top: 100px;
+    margin-top: 50px;
      text-align: center;
      margin-left: auto;
      margin-right: auto;
