@@ -16,6 +16,7 @@
 		<h3>QUESTIONS COURANTES</h3>
 
 
+
 		<?php
 	try
 	{
@@ -43,11 +44,11 @@
 <?php
 }
 
-$reponse->closeCursor(); // Termine le traitement de la requête
+$question->closeCursor(); // Termine le traitement de la requête
 
 ?>
+				<button class="button"><a style="color:white; text-decoration:none" href="FAQadminModif.php">Ajouter une question</a>
 
-		<button class="button"><a style="color:white; text-decoration:none" href="FAQ.html">Ajouter une question</a>
 	</form>
 </div>
 
