@@ -1,0 +1,129 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+@font-face {
+    font-family: 'circular';
+    src: url('polices/Circular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'aileron_ultralight';
+    src: url('polices/Aileron-Ultralight.otf') format('opentype');
+}
+@font-face {
+    font-family: 'aileron_thin';
+    src: url('polices/Aileron-Thin.otf') format('opentype');
+}
+@font-face {
+    font-family: 'aileron_thin_italic';
+    src: url('polices/Aileron-ThinItalic.otf') format('opentype');
+}
+
+
+
+h2 {
+    font-family: 'circular';
+}
+h3 {
+    font-family: 'circular';
+}
+
+h2{
+
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 4px;
+    color: #a0ff23;
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+
+}
+
+
+.line{
+    width: 85%;
+    height: 10px;
+    border-bottom: 1px solid #a0ff23;
+    position: absolute;
+
+
+
+}
+h4{
+    font-family: 'aileron_thin_italic';
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #a0ff23;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    color: white;
+    font-family: 'aileron_ultralight';
+}
+
+form {
+    width:85%;
+    padding: 30px;
+    background: #000000;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    opacity: 0.7;
+    margin-right: 150px;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+label {
+  /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+  font-family: 'aileron_thin_italic';
+    margin-left:18%;
+    color: white;
+     margin-top:20px;
+     font-size: 25px;
+}
+
+textarea {
+  /* Pour aligner correctement les champs multilignes et leurs étiquettes */
+  vertical-align: top;
+  margin-top:10px;
+  margin-top:20px;
+
+  /* Pour donner assez d'espace pour entrer du texte */
+  height: 250px ;
+  width : 300px;
+
+  /* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement
+     Cela ne marche pas avec tous les navigateurs  */
+  resize: vertical;
+  background-color: white;
+}
+input{
+  background-color: white;  
+  margin: 0 auto;
+  width: 300px;
+  height: 60px;
+  margin-top:20px;
+}
+
+body {
+    /* The image used */
+    background-image: url("Background.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-attachment: fixed;
+}

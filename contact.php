@@ -2,7 +2,7 @@
 
 	<head>
         <meta charset="utf-8">
-        <link rel = "stylesheet" href = "contacterCSS.css"/>
+        <link rel = "stylesheet" href = "contact.css"/>
         <title> SmartBeing </title>
     </head>
 
@@ -13,17 +13,30 @@
         <div class="bg">
             <form action="#" method="POST">
             <h2>NOUS CONTACTER</h2>
-            <div class="line"></div>
+            <div class="line"></div></br></br></br></br>
 
-			<label for="nom">Nom d'utilisateur </label>
+			<label for="nom" >Votre nom d'utilisateur : </label>
 			<input type="text" <id="nom" name="nom"><br>
-			<label for="e-mail">E-mail</label>
+			<label for="e-mail">E-mail du destinataire :</label>
 			<input type="text" <id="e-mail" name="e-mail"><br>
 
 			<label for="message">Votre message : </label>
 			<textarea id="message"></textarea><br>
 
-			<input type="submit" value="Envoyer">
+			<input type="submit" value="Envoyer" style=" 
+            background-color: #a0ff23;
+            border: none;
+            color: black;
+            padding: 10px 25px;
+            text-align: center;
+            font-size: 30px;
+            cursor: pointer;
+            display: block;
+            margin : auto;
+            margin-top:20px;
+            margin-left:539px;
+            border-radius: 5px;
+            font-family: 'aileron_thin';">
 		
         </form>
 </div>
@@ -54,40 +67,6 @@
 </style>
 	</body>
 
-	<footer>
-        <div id = "global">
-            <div id = "Reseaux">
-                <div id = "Facebook"> 
-                    <figure>
-                        <a href = "NOMPAGE.html">
-                            <img src = "twitter-li-ma-3andiiich-m3ah.jpg">
-                        </a>
-                        <figcaption>Twitter</figcaption>
-                    </figure>
-                </div>
-                
-                <div id = "Instagram">
-                    <figure>
-                        <a href = "NOMPAGE.html">
-                            <img src = "insta.png">
-                        </a>
-                        <figcaption>Instagram</figcaption>
-                    </figure>
-                </div>
-                
-                <div id ="Facebook">
-                    <figure>
-                        <a href = "NOMPAGE.html">
-                            <img src = "fb.png">
-                        </a>
-                        <figcaption>Facebook</figcaption>
-                    </figure>
-                </div>
-            </div>
-            <a href = "NOMPAGE.html">
-                <p> <u> CGU </u> </p>
-            </a>
-        </div>
-    </footer>
+	
 
 </html>
