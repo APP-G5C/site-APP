@@ -16,12 +16,12 @@
             <div class="line"></div></br></br></br></br>
 
 			<label for="nom" >Votre nom d'utilisateur : </label>
-			<input type="text" <id="nom" name="nom"><br>
+			<input type="text" style="font-size: 25px;"<id="nom" name="nom"><br>
 			<label for="e-mail">E-mail du destinataire :</label>
-			<input type="text" <id="e-mail" name="e-mail"><br>
+			<input type="text" style="font-size: 25px;"<id="e-mail" name="e-mail"><br>
 
 			<label for="message">Votre message : </label>
-			<textarea id="message"></textarea><br>
+			<textarea id="message" style="font-size: 25px;"></textarea><br>
 
 			<input type="submit" value="Envoyer" style=" 
             background-color: #a0ff23;
